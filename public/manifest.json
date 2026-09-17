@@ -1,0 +1,17 @@
+{
+  "name": "Campus Planner",
+  "short_name": "Campus Planner",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "description": "Campus Planner Application",
+  "id": "/",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
