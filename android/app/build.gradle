@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     namespace = "com.campus.planner"
-    compileSdk = rootProject.ext.compileSdkVersion
+    compileSdk = 36
     
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
@@ -12,7 +12,7 @@ android {
     defaultConfig {
         applicationId "com.campus.planner"
         minSdkVersion rootProject.ext.minSdkVersion
-        targetSdkVersion rootProject.ext.targetSdkVersion
+        targetSdkVersion 36
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
